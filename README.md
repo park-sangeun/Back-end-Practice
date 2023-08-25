@@ -26,3 +26,14 @@ Front와 Back login 및 signup을 연결한 코드이다.
 스트리밍 영상 관련 video DB에 저장 및 출력 코드이다. </br>
 1. 컴퓨터에 기존 가진 비디오 영상 파일을 DB에 저장- /video/insert </br>
 2. DB에 저장된 비디오 목록을 불러와 데이터 테이블에서 확인 - /video/list </br>
+3. 엔드포인트에서 json 형식의 목록 확인 - /video/getFilesList </br>
+
+## 4_Navigation 연결
+네비게이션 바 클릭 시 해당 페이지로 이동하는 코드이다. </br>
+1. logo.png 클릭 시 main으로 이동 </br>
+2. 홈 클릭 시 main으로 이동 </br>
+3. 실시간 정보 클릭 시 streaming or location으로 이동 </br>
+4. 재난지역 클릭 시 disaster로 이동 </br>
+5. 컨트롤러 클릭 시 controller로 이동 </br>
+6. 로봇 데이터 클릭 시 robot or srobot으로 이동 </br>
+7. 영상 데이터 클릭 시 video로 이동 </br>
