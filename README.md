@@ -37,3 +37,13 @@ Front와 Back login 및 signup을 연결한 코드이다.
 5. 컨트롤러 클릭 시 controller로 이동 </br>
 6. 로봇 데이터 클릭 시 robot or srobot으로 이동 </br>
 7. 영상 데이터 클릭 시 video로 이동 </br>
+
+## 5_Videoview 연결
+비디오 목록 내 링크 클릭 시 영상 확인 페이지로 이동하는 코드이다. </br>
+1. 목록 내 Title의 링크 클릭 시 videoview 페이지로 이동- /videoview/ </br>
+2. fno 값에 따라 알맞는 비디오 녹화본 재생 가능- /videoview/videoId=@ </br>
+3. 추가 저장 및 일시정지, 전체화면 등 기본적인 영상 재생 사이트와 동일 환경 제공 </br>
+
+## 6_Disaster 연결
+API 등록 후 기상청/카카오지도 출력 코드이다. </br> Kakao Developers에 등록한 appkey로 작성해야한다. </br>
+1. 재난지역 페이지에서 로봇 위치 지도, 현재 시간 및 날씨, 기온 확인 -/disaster </br>
