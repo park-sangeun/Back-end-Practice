@@ -54,8 +54,8 @@ create user 'babyssu'@'%' identified by'0000'; #외부 접근 가능한 사용�
 ### DB 및 Table 생성
 ```
 create database examples; (현재 DB name: examples) 
-GRANT ALL PRIVILEGES ON `check_db`.* TO 'check'@'%' WITH GRANT OPTION; #사용자에 권한 부여
-show grants for 'check'@'%'; #권한 부여되었는지 확인
+GRANT ALL PRIVILEGES ON `examples`.* TO 'babyssu'@'%' WITH GRANT OPTION; #사용자에 권한 부여
+show grants for 'babyssu'@'%'; #권한 부여되었는지 확인
 ```
 
 Mysql workbench에서 MySQL Connection 추가
